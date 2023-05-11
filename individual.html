@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>one</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                background-color: rgb(6, 6, 38);
+                margin: 0%;
+                padding: 0%;
+            }
+            #box2{
+                display: block;
+                text-align: center;
+                width: 300px;
+                height: 500px;
+                margin: 20px 0px 0px 20px;
+                border-radius: 25px;
+                background-color: rgb(2, 2, 133);
+                border: 2px solid rgba(0, 0, 0, 0);
+            }
+            #titlein{
+                font-size: 30px;
+                color: rgb(255, 0, 174);
+            }
+            #poster{
+                margin-top: 10px;
+                width: 280px;
+                height: 420px;
+            }
+            #box3{
+                width: 700px;
+                position: absolute;
+                top: 20px;
+                left: 400px;
+                text-align: center;
+                color: white;
+                border-radius: 25px;
+                background-color: rgb(2, 2, 133);
+                font-size: 30px;
+                border: 2px solid rgba(248, 0, 194, 0);
+            }
+            .bt1{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 20px;
+                border-radius: 25px;
+                background-image: linear-gradient(to right,rgb(0, 157, 255),rgb(255, 0, 255));
+                padding: 10px 300px 10px 300px;   
+            }
+@media only screen and (max-width: 1130px ){
+    #box3{
+        left: 330px;
+    }
+
+}
+@media only screen and (max-width: 920px ){
+    #box3{
+        left: 320px;
+    }
+
+}
+@media only screen and (max-width: 830px ){
+    #box3{
+        top: 600px;
+        left: 20px;
+    }
+    #box2{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media only screen and (max-width: 460px ){
+    #box2{
+        margin-left: 200px;
+    }
+    .bt1{
+        padding: 30px 300px 30px 300px;
+        font-size: 30px;
+    }
+}
+
+        </style>
+    </head>
+    <body>
+        <div id="box2">
+            <img src="movie-poster/Ironman 1.jpeg" id="poster">
+            <h1 id="titlein">IRON MAN</h1>
+        </div>
+        <div id="box3">
+            <p>After being held captive in an afghan cave, billionaire engineer tony stark
+                creates a unique weaponized suit of armor to fight evil.<br>⭐ IMDb : 7.9/10
+            </p>
+            <h1>Watch</h1>
+            <button class="bt1">480p</button>
+            <button class="bt1">720p</button>
+            <button class="bt1">1080p</button>
+            <h1>Download</h1>
+            <button class="bt1">480p</button>
+            <button class="bt1">720p</button>
+            <button class="bt1">1080p</button>
+        </div>
+    </body>
+    <script src="oneforall.js"></script>
+</html>
