@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #007BFF;
+    padding: 10px 20px;
+  }
+  .buttontop {
+    padding: 5px 10px;
+    background-color: #F0F0F0;
+    font-size: 16px;
+    border: none;
+    color: rgb(0, 0, 0);
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .buttontop:hover{
+    background-color: #000000;
+    color: white;
+  }
+  .button {
+    padding: 5px 10px;
+    background-color: #007bff00;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+  }
+  .file {
+    width: 250px;
+    height: 140px;
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    border-radius: 15px;
+    background-color:  #064070;
+    text-align: center;
+  }
+  .file:hover {
+    background-color: #010645;
+    transition-delay: 0.2s;
+    color: white;
+  }
+  
+  .file img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 10px;
+  }
+  .file-name {
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Edu SA Beginner', 'cursive';
+    margin-bottom: 5px;
+  }
+  .file-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 96px;
+    margin-right: 96px;
+  }
+ 
+  .image-container{
+    position: relative;
+  display: inline-block;
+  }
+  .tooltip {
+  visibility: hidden;
+  position: absolute;
+  bottom: 100%;
+  left: 100%;
+  transform: translateX(-50%);
+  background-color: #000000;
+  color: #1ad209;
+  padding: 5px;
+  border-radius: 5px;
+  white-space: nowrap;
+}
+
+.image-container:hover .tooltip {
+  visibility: visible;
+}
