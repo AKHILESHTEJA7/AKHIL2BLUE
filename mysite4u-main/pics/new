@@ -1,0 +1,15 @@
+<html>
+<head>
+<title>NAMASTHEE></title>
+<style>
+    #logo{
+        height: 100px;
+        width: 300px;
+    }
+
+</style>
+</head>
+<body>
+<img src="html videos/logo.jpg" id="logo">
+</body>
+</html>

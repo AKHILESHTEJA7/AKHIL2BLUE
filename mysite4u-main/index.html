@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>omg</title>
+        <style>
+            body{
+                background-color: black;
+            }
+            #MOV{
+                padding:5px 40px 20px 40px;
+                text-decoration:none;
+                color: white;
+                background-color: black;
+                display:flex;
+                align-items: left;
+                
+            }
+            .dropdown {
+            display: inline-block;
+            position: relative;
+            }
+            .dropdown-options {
+            display: none;
+            position: absolute;
+            overflow: auto;
+            z-index: 1;
+            
+            }
+            .dropdown:hover .dropdown-options{
+            display: block;
+            border:2px solid rgb(45, 113, 216);
+            color: #0af454;
+            }
+            #con{
+                height: 30px;
+                background-color:black;
+                margin: 25px 0px 0px 10px;
+            }
+            #logo{
+                background-color: transparent;
+                height: 40px;
+                width: 190px;
+                margin: 25px 0px 0px 50px;
+            }
+            #join{
+        border: solid blue;
+        border-radius: 25px;
+        color:white;
+        float: right;
+        position: relative;
+        top: 15px;
+        margin-left: 90px;
+        background-color:black;
+        font-size: 25px;
+        padding: 5px 20px 5px 20px;
+        font-family: 'cambria';
+        font-size: 20px;
+    }
+    #sea{
+        padding:5px  10px;
+        border-radius: 25px;
+        margin-right: 30px;
+        cursor: pointer;
+        color: #fff;
+        border: solid blue;
+        background-color: rgb(27, 11, 253);
+    }
+    input{
+    width: 100px;
+    margin: 0px 0px 0px 400px;
+    border-color: rgb(9, 40, 239);
+    color: white;
+    border-radius: 25px;
+    padding: 10px 180px 10px 10px;
+    background-color: black;
+}
+input{
+    position: relative;
+    top: 15px;
+}
+#sea{
+    position: relative;
+    top: 19px;
+    right:42px;
+}
+#main{
+    display: flex;
+    align-items: center;
+}
+hr{
+    height: 1px;
+    margin-top: 30px;
+    width: 100%;
+    background-color: #1100ff;
+    border: none;
+}
+.ooy{
+    margin: 0%;
+    padding: 0%;
+}
+#menu{
+    background: transparent;
+}
+.set{
+    width: 20px;
+    background-color: transparent;
+}
+#bg{
+    opacity: 50%;
+    width: 100%;
+}
+.war{
+    position: relative;
+    text-align: center;
+    color:white;
+}
+
+.TANG{
+    text-transform: uppercase;
+    background-image: linear-gradient(-225deg,red 0%,blue 10%,
+    #0af454 30%,#fff800 40%,#ff6a00 50%,#ff00fb 60%,#282f31 70%,#00ddff 80%,#198330 90%,#1100ff 100%);
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    text-fill-color: transparent;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: textclip 4s linear infinite;
+    margin: 160px 0px 0px 220px;
+    display: inline-block;
+    font-size: 70px;   
+}
+#end{
+    padding:20px 0px 40px 0px;
+    
+
+}
+.non{
+    text-decoration: none;
+    width: 0%;
+    height: 100%;
+    z-index: -1;
+}
+span{
+    margin: 10px;
+    border:2px rgb(0, 0, 0);
+    border-style: none none solid none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 0px 110px 0px 100px;
+    
+}
+p{
+    color: gray;
+}
+.que{
+    font-size: 55px;
+    padding-top: 150px;
+}
+.con{
+    position: relative;
+    text-align: center;
+    color: white;
+    padding-top: 1px;
+}
+.ans{
+    color: white;
+}
+.toprig{
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-family: 'cambria';
+}
+#anya{
+    border-radius: 100px;
+    padding-top: 30px;
+    opacity: 70%;
+}
+anna{
+    color: rgb(245, 87, 179);
+    font-style: italic;
+}
+#oul{
+    width: 420px;
+    float: right;
+    position:absolute;
+    top: 1500px;
+    left: 830px;
+    opacity: 50%;
+}
+.TANG{
+    position: absolute;
+    top: 120px;
+    left: 0px;
+}
+.non:hover span{
+    
+}
+#kol{
+    position:absolute;
+    top: 1570px;
+    left: 750px;
+    background-color: transparent;
+}
+.migg{
+    width: 40px;
+    opacity: 50%;
+    padding: 20px;
+    background-color: transparent;
+}
+@keyframes textclip{
+    to{
+        background-position: 200% center;
+    }
+}
+        </style>
+   <body>
+    <div id="main">
+    <!-----------------menu---------------->
+       <div class="dropdown">
+       <button id="menu" onclick="doit()"><img src="pics/menu3.png" id="con"></button>
+       <div class="dropdown-options">
+           <a href="#" id="MOV">HOME 🏠</a><hr class="ooy">
+           <a href="blog.html" id="MOV">MY BLOG👨‍💻</a><hr class="ooy">
+           <a href="majnuu.html" id="MOV">MOVIES🎟️</a><hr class="ooy">
+           <a href="BLACK.html" id="MOV">ANIME💢</a><hr class="ooy">
+           <a href="settings.html" id="MOV">SETTINGS⚙️</a><hr class="ooy">
+           <a href="myprofile.html" id="MOV">DETAILS🕵️</a>
+       </div>
+       </div>
+       <!-----------------menu---------------->
+
+       <!----------LOGO---------------->
+
+       <img src="pics/PULI.png" id="logo">
+
+       <!----------LOGO---------------->
+
+       <!-----------------search box & button---------------->
+       <form id="gbox">
+        <input type="text" placeholder="search anything" id="box">
+        <button id="sea"><img src="pics/search.png" class="set"></button> 
+    </form>
+
+
+    <!-----------------sign in button---------------->
+    <a href="sign-in.html">
+        <button id="join">JOIN</button></a>
+    </div>
+    <hr>
+    <!-----------------background + text animation---------------->
+    <div class="war">
+    <img src="pics/qqq.jpg" id="bg">
+    <!--font color animation-->
+    <h1 class="TANG">GUNJI AKHILESH TEJA</h1>
+    </div>
+    <div class="con">
+        <img src="pics/anya.png" width="1250px" height="600px" id="anya" alt="anya forger">
+        <div class="toprig">
+            <h1 class="que">"If you <anna>leave me </anna>behind<br>
+                I'm going to <anna>cry"</anna></h1>
+            <p class="ans">"もしも あなた <anna>私を残して </anna>後ろ<br>
+                私はに行きます<anna> 泣く</anna>"</p>
+        </div>
+    </div>
+    <div id="end">
+        <a href="myprofile.html" class="non"><span>About Us</span></a>
+        <a href="#" class="non"><span>Give Rating</span></a>
+        <a href="#" class="non"><span>Report</span></a>
+        <a href="#" class="non"><span>others</span></a><br>
+        <p style="padding: 0px 0px 0px 30px;">Hello,guys this website contains all kind of features<br>
+        your can enjoy news,movies,games,anime,manga,blogs,..etc<br>
+        This is a trail version only, very soon we will launch the <br>
+        best version of our website.<br>
+        &#169 Reserved(2023-2023)<br>
+        All right resreved<br>
+        Powered by vishnu.co.org</p>
+        <img src="pics/LOGO2.5.png" id="oul">
+        <div id="kol">
+            <a id="matter" href="http://www.youtube.com/@anyaforger6746/" target="_blank">
+            <img src="pics/youtube.png" class="migg"></a>
+            <a id="matter" href="https://www.facebook.com/akhil.ray.5817/" target="_blank">
+            <img src="pics/facebook.png" class="migg"></a>
+            <a id="matter" href="http://www.discord.com/" target="_blank">
+            <img src="pics/discord.png" class="migg"></a>
+            <a id="matter" href="http://www.instagram.com/akhileshteja7/" target="_blank">
+            <img src="pics/instagram.png" class="migg"></a>
+            <a id="matter" href="whatapp.html" target="_blank">
+            <img src="pics/whatsapp.png" class="migg"></a>
+            <a id="matter" href="http://www.twitter.com/" target="_blank">
+            <img src="pics/twitter.png" class="migg"></a>
+        </div>
+    </div>
+   </body>
