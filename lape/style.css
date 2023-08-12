@@ -1,0 +1,138 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body{
+
+	background-image: linear-gradient(to bottom, #050506, #061644, #001e81, #001fc1, #1a00ff);
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: Comic Sans MS; sans-serif;
+	margin:0px 0px;
+}
+
+#logo{
+
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	margin-top: 0px;
+  	width: 12%;
+}
+
+.nav{
+	
+	padding: 0px;
+	list-style-type: none;
+	margin: 5px 288px;
+	border: 3px solid #2d50c4;
+	overflow: hidden;
+	background: #2d50c4;
+	border-radius:30px;
+}
+
+.nav li{
+	float: left;	
+}
+
+.nav li a{
+	width: 170px;
+	height: 40px;
+	color: black ;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	font-size: 25px;
+	line-height: 40px;
+}
+
+.nav li a:hover{
+	color:black;
+	background-color: #de4545;
+	border-radius: 30px;
+}
+
+.nav li a.active{
+	color: black;
+	background-color: #de4545;
+	border-radius: 30px;
+}
+
+.bar{
+	
+	padding: 0px;
+	list-style-type: none;
+	margin: 0px 1.1px;
+	border: 3px solid #de4545;
+	overflow: hidden;
+	background: #de4545;
+}
+
+.bar li{
+	float: left;
+}
+
+.bar li a{
+	color: black ;
+	text-decoration: none;
+	display: block;
+	text-align: center;
+	font-size: 19px;
+	line-height: 40px;
+	padding: 7px 7px;
+    margin-right: 4.52px;
+}
+
+.bar li a:hover{
+	color:black;
+	background-color: #2d50c4;
+}
+
+.sticky {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+ }
+
+iframe{
+	width: 1220px;
+	height: 520px;
+	border-radius:30px;
+	margin: 0px 17.5px;
+	margin-top: 10px;
+}
+
+#aboutpara, #careerpara, #contactpara {
+	margin: 50px 280px;
+	padding: 5px;
+	border: 3px solid gray;
+	background-color: #2d50c4;
+	border-radius: 30px;
+    height: auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+.end1 img{
+	float: center;
+	width: 90px;
+	margin: 4px;
+	padding: 0px;
+}
+.end1 p{
+	margin:0px;
+    padding-bottom: 5px;
+}
+
+.end1 {
+   margin: 0px 190px;
+   padding:0px;
+   border-radius:30px;
+   background: #de4545;
+}
+
+.logod{
+	text-align: center;
+	font-size: 43px;
+	color: gray;
+}
