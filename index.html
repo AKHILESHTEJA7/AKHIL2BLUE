@@ -60,10 +60,15 @@
 </head>
 <body>
   <img src="test/pivs.png" style="width: 300px; height: 110px;">
+  
   <div class="search-container">
-        <input type="text" id="search-box" placeholder="Search...">
-        <button id="search-button">Search</button>
-    </div>
+    <form action="https://www.google.com/search" method="GET">
+      <label for="search-box"></label>
+        <input type="text" id="search-box" name="q" placeholder="Search...">
+        <button id="search-button" type="submit">Search</button>
+      </form>
+      </div>
+    
   <div class="icon-container">
     <a href="AKHIL2BLUE-main/index.html" target="_blank" style="text-decoration: none;"><div class="icon">
       <img src="test/movies.png" alt="Icon 1">
